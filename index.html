@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FGS Ladder: Fight Female Genital Schistosomiasis</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>FGS Ladder</h1>
+  <p class="subtitle">Climb the ladders of health, avoid the Schistosoma worms!</p>
+
+  <div class="game-container">
+    <div class="players-info">
+      <div class="player-info player1-info active">
+        <span>Player</span>
+        <div class="player-info-avatar player1">1</div>
+
+      </div>
+      <div class="player-info player2-info">
+        <span>Player</span>
+        <div class="player-info-avatar player2">2</div>
+
+      </div>
+    </div>
+
+    <div class="board-container">
+      <div class="board" id="board"></div>
+    </div>
+
+    <div class="controls">
+      <div class="status player1-turn" id="status">Player 1's Turn</div>
+      <div class="dice-container" id="dice">?</div>
+      <button class="roll-btn" id="rollBtn">Roll Dice</button>
+      <div class="win-message" id="winMessage"></div>
+    </div>
+
+    <div class="education-modal" id="educationModal">
+      <div class="modal-content">
+        <h2 id="modalTitle">FGS Education</h2>
+        <div class="modal-body" id="modalBody"></div>
+        <button class="modal-close" id="modalClose">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
